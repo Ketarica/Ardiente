@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ardiente</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kurale&family=Open+Sans:wght@400;700&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+		<section class="home">
+			<!-- <img class="home__img" src="img/dish.jpg" alt=""> -->
+			<video class="home__video" src="img/dish2.mp4" autoplay loop muted></video>
+			<div class="home__container">
+				<div class="container">
+					<nav class="top-menu">
+						<ul class="top-menu__list">
+							<li class="top-menu__item"><a href="#about">About</a></li>
+							<li class="top-menu__item"><a href="#team">Team</a></li>
+							<li class="top-menu__item"><a href="#order">Order</a></li>
+							<li class="logo"><img src="img/logo2.png" alt=""></li>
+							<li class="top-menu__item"><a href="#menu">Menu</a></li>
+							<li class="top-menu__item"><a href="#events">Events</a></li>
+							<li class="top-menu__item"><a href="#contacts">Contacts</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="container home__container-center">
+					<div class="time-work"></div>
+					<div class="home__text">
+						<h6>PIZZERIA</h6>
+						<h1>Ardiente</h1>
+						<div class="home__btns">
+							<a href="#order" class="btn-order">Make your order</a>
+							<a href="#about">About us</a>
+						</div>
+						<a href="#about" class="arrow__about">
+							<svg class="arrow__img">
+								<use xlink:href="img/sprite-icons.svg#arrow"></use>
+							</svg>
+						</a>
+					</div>
+					<div class="socials">
+						<a href="#" target="_blank">
+							<svg>
+								<use xlink:href="img/sprite-icons.svg#facebook"></use>
+							</svg>
+						</a>
+						<a href="#" target="_blank">
+							<svg>
+								<use xlink:href="img/sprite-icons.svg#twitter"></use>
+							</svg>
+						</a>
+						<a href="#" target="_blank">
+							<svg>
+								<use xlink:href="img/sprite-icons.svg#instagram"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="about" id="about">
+			<div class="container about__container">
+				<div class="about__text">
+					<h2>ABOUT US</h2>
+					<p class="intro">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, animi!
+					</p>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia facilis harum, delectus corrupti tempora similique voluptate nesciunt ipsa, amet saepe placeat veniam obcaecati suscipit quo earum non quibusdam aliquid iste!</p>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui ut quis repellat.</p>
+				</div>
+				<div class="about__img">
+					<img src="img/about-img.jpg" alt="">
+					<div class="circle"></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="team" id="team">
+			<div class="container">
+				<h6>OUR TEAM</h6>
+			</div>
+			<div class="container team__container">
+
+				<div class="team__img">
+					<img src="img/team-img.jpg" alt="">
+					<div class="circle"></div>
+				</div>
+
+				<div class="team__text">
+					<h2>BEST CHEF</h2>
+					<p class="intro">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptatibus.
+					</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem fugiat atque reiciendis temporibus soluta! Laudantium?</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="order" id="order">
+
+			<div class="container order__container">
+				<div class="order__text">
+					<h2>RESERVATION</h2>
+					<form action="" class="order-form">
+						<input type="text" placeholder="Name" required>
+						<input type="text" placeholder="Email" required>
+						<input type="text" placeholder="Phone" required>
+						<div class="order__select">
+							<select required>
+								<option value="">Number of people</option>
+								<option value="1">1</option>
+								<option value="2-5">2-5</option>
+								<option value="5-10">5-10</option>
+							</select>
+						</div>
+						<input type="text" placeholder="Date (date/month)" required>
+						<div class="order__select">
+							<select required>
+								<option value="">Time</option>
+								<option value="10:00 - 14:00">10:00 - 14:00</option>
+								<option value="14:00 - 14:00">14:00 - 18:00</option>
+								<option value="18:00 - 23:00">18:00 - 23:00</option>
+							</select>
+						</div>
+						<button type="submit">Submit</button>
+					</form>
+				</div>
+				<div class="order__img">
+					<img src="img/order-img.png" alt="">
+					<div class="circle"></div>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="order__contacts">
+					Mon - Fr: <strong>8.00 - 22.00</strong>, Sat - Sun: <strong>9.00 - 23.00</strong>, Phone: <a
+						href="tel:+09103839164">+09103839164</a>/<a href="tel:+09103839164">+09103839164</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="spec">
+
+			<div class="container spec__container">
+				<h6>LIMITED</h6>
+			</div>
+
+			<div class="swiper-container spec__slider">
+				<div class="swiper-wrapper">
+
+					<!-- slide -->
+					<div class="swiper-slide spec__slide">
+						<div class="container spec__slide-container">
+
+							<div class="spec__img">
+								<img src="img/slide1.jpg" alt="">
+								<div class="circle"></div>
+							</div>
+
+							<div class="spec__text">
+								<h2>Slide 1</h2>
+								<p class="intro">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, optio!</p>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, inventore!</p>
+							</div>
+
+						</div>
+					</div>
+					<!-- end slide -->
+
+					<!-- slide -->
+					<div class="swiper-slide spec__slide">
+						<div class="container spec__slide-container">
+
+							<div class="spec__img">
+								<img src="img/slide2.jpg" alt="">
+								<div class="circle"></div>
+							</div>
+
+							<div class="spec__text">
+								<h2>Slide 2</h2>
+								<p class="intro">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, nemo!</p>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, itaque?</p>
+							</div>
+
+						</div>
+					</div>
+					<!-- end slide -->
+
+					<!-- slide -->
+					<div class="swiper-slide spec__slide">
+						<div class="container spec__slide-container">
+
+							<div class="spec__img">
+								<img src="img/slide1.jpg" alt="">
+								<div class="circle"></div>
+							</div>
+
+							<div class="spec__text">
+								<h2>Slide 3</h2>
+								<p class="intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quo!</p>
+								<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, fuga?</p>
+							</div>
+
+						</div>
+					</div>
+					<!-- end slide -->
+
+				</div>
+				<div class="swiper-pagination spec__pagination"></div>
+			</div>
+
+		</section>
+
+		<section class="menu" id="menu">
+			<h2>MENU</h2>
+			<p class="intro menu__intro">Lorem ipsum dolor sit amet.</p>
+
+			<div class="tabs__container">
+				<ul class="tabs">
+					<li class="tabs__item active" data-tab="#snacks">Pizza classic</li>
+					<li class="tabs__item" data-tab="#meats">Hot pizza</li>
+					<li class="tabs__item" data-tab="#salads">Salats</li>
+					<li class="tabs__item" data-tab="#pasta">Pasta</li>
+					<li class="tabs__item" data-tab="#drinks">Drinks</li>
+					<li class="tabs__item" data-tab="#dessert">Deserts</li>
+				</ul>
+			</div>
+
+			<div class="menu__sliders">
+
+				<!-- slider1 -->
+				<div class="menu__slider-block show" id="snacks">
+					<div class="swiper-container menu__slider">
+						<div class="swiper-wrapper">
+
+							<div class="swiper-slide">
+								<div class="menu__item">
+									<img class="menu__item-img" src="img/menu1.jpg" alt="">
+									<div class="menu__item-text">
+										<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+										<h6 class="menu__price">10$</h6>
+										<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="menu__item">
+									<img class="menu__item-img" src="img/menu1.jpg" alt="">
+									<div class="menu__item-text">
+										<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+												<h6 class="menu__price">10$</h6>
+												<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="menu__item">
+									<img class="menu__item-img" src="img/menu1.jpg" alt="">
+									<div class="menu__item-text">
+										<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+												<h6 class="menu__price">10$</h6>
+												<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="menu__item">
+									<img class="menu__item-img" src="img/menu1.jpg" alt="">
+									<div class="menu__item-text">
+										<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+										<h6 class="menu__price">10$</h6>
+										<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="menu__item">
+									<img class="menu__item-img" src="img/menu1.jpg" alt="">
+									<div class="menu__item-text">
+										<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+										<h6 class="menu__price">10$</h6>
+										<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="menu__item">
+									<img class="menu__item-img" src="img/menu1.jpg" alt="">
+									<div class="menu__item-text">
+										<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+												<h6 class="menu__price">10$</h6>
+												<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="swiper-pagination menu__pagination"></div>
+					</div>
+				</div>
+				<!-- end slider1 -->
+
+
+				<!-- slider2 -->
+				<div class="menu__slider-block" id="meats">
+					<div class="swiper-container menu__slider">
+						<div class="swiper-wrapper">
+
+							<div class="swiper-slide">
+								<div class="menu__item">
+									<img class="menu__item-img" src="img/menu4.jpg" alt="">
+									<div class="menu__item-text">
+										<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+										<h6 class="menu__price">10$</h6>
+										<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="menu__item">
+									<img class="menu__item-img" src="img/menu4.jpg" alt="">
+									<div class="menu__item-text">
+										<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+												<h6 class="menu__price">10$</h6>
+												<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="menu__item">
+									<img class="menu__item-img" src="img/menu4.jpg" alt="">
+									<div class="menu__item-text">
+										<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+												<h6 class="menu__price">10$</h6>
+												<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="menu__item">
+									<img class="menu__item-img" src="img/menu4.jpg" alt="">
+									<div class="menu__item-text">
+										<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+										<h6 class="menu__price">10$</h6>
+										<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="menu__item">
+									<img class="menu__item-img" src="img/menu4.jpg" alt="">
+									<div class="menu__item-text">
+										<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+												<h6 class="menu__price">10$</h6>
+												<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="menu__item">
+									<img class="menu__item-img" src="img/menu2.jpg" alt="">
+									<div class="menu__item-text">
+										<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+												<h6 class="menu__price">10$</h6>
+												<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="swiper-pagination menu__pagination"></div>
+					</div>
+				</div>
+				<!-- end slider2 -->
+
+				<!-- slider3 -->
+				<div class="menu__slider-block" id="salads">
+					<div class="swiper-container menu__slider">
+						<div class="swiper-wrapper">
+
+							<div class="swiper-slide">
+								<div class="menu__item">
+									<img class="menu__item-img" src="img/menu5.jpg" alt="">
+									<div class="menu__item-text">
+										<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+										<h6 class="menu__price">10$</h6>
+										<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="menu__item">
+									<img class="menu__item-img" src="img/menu5.jpg" alt="">
+									<div class="menu__item-text">
+										<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+										<h6 class="menu__price">10$</h6>
+										<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="menu__item">
+									<img class="menu__item-img" src="img/menu5.jpg" alt="">
+									<div class="menu__item-text">
+										<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+										<h6 class="menu__price">10$</h6>
+										<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="menu__item">
+									<img class="menu__item-img" src="img/menu5.jpg" alt="">
+									<div class="menu__item-text">
+										<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+										<h6 class="menu__price">10$</h6>
+										<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="menu__item">
+									<img class="menu__item-img" src="img/menu5.jpg" alt="">
+									<div class="menu__item-text">
+										<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+										<h6 class="menu__price">10$</h6>
+										<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="menu__item">
+									<img class="menu__item-img" src="img/menu5.jpg" alt="">
+									<div class="menu__item-text">
+										<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+										<h6 class="menu__price">10$</h6>
+										<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="swiper-pagination menu__pagination"></div>
+					</div>
+				</div>
+				<!-- end slider3 -->
+
+
+
+						<!-- slider4 -->
+						<div class="menu__slider-block" id="pasta">
+							<div class="swiper-container menu__slider">
+								<div class="swiper-wrapper">
+		
+									<div class="swiper-slide">
+										<div class="menu__item">
+											<img class="menu__item-img" src="img/menu3.jpg" alt="">
+											<div class="menu__item-text">
+												<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+												<h6 class="menu__price">10$</h6>
+												<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="menu__item">
+											<img class="menu__item-img" src="img/menu3.jpg" alt="">
+											<div class="menu__item-text">
+												<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+												<h6 class="menu__price">10$</h6>
+												<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="menu__item">
+											<img class="menu__item-img" src="img/menu3.jpg" alt="">
+											<div class="menu__item-text">
+												<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+												<h6 class="menu__price">10$</h6>
+												<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="menu__item">
+											<img class="menu__item-img" src="img/menu3.jpg" alt="">
+											<div class="menu__item-text">
+												<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+												<h6 class="menu__price">10$</h6>
+												<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="menu__item">
+											<img class="menu__item-img" src="img/menu3.jpg" alt="">
+											<div class="menu__item-text">
+												<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+												<h6 class="menu__price">10$</h6>
+												<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="menu__item">
+											<img class="menu__item-img" src="img/menu3.jpg" alt="">
+											<div class="menu__item-text">
+												<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+												<h6 class="menu__price">10$</h6>
+												<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+											</div>
+										</div>
+									</div>
+		
+								</div>
+								<div class="swiper-pagination menu__pagination"></div>
+							</div>
+						</div>
+						<!-- end slider4 -->
+
+									<!-- slider5 -->
+									<div class="menu__slider-block" id="drinks">
+										<div class="swiper-container menu__slider">
+											<div class="swiper-wrapper">
+					
+												<div class="swiper-slide">
+													<div class="menu__item">
+														<img class="menu__item-img" src="img/menu2.jpg" alt="">
+														<div class="menu__item-text">
+															<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+												<h6 class="menu__price">10$</h6>
+												<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+														</div>
+													</div>
+												</div>
+												<div class="swiper-slide">
+													<div class="menu__item">
+														<img class="menu__item-img" src="img/menu2.jpg" alt="">
+														<div class="menu__item-text">
+															<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+												<h6 class="menu__price">10$</h6>
+												<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+														</div>
+													</div>
+												</div>
+												<div class="swiper-slide">
+													<div class="menu__item">
+														<img class="menu__item-img" src="img/menu2.jpg" alt="">
+														<div class="menu__item-text">
+															<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+															<h6 class="menu__price">10$</h6>
+															<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+														</div>
+													</div>
+												</div>
+												<div class="swiper-slide">
+													<div class="menu__item">
+														<img class="menu__item-img" src="img/menu2.jpg" alt="">
+														<div class="menu__item-text">
+															<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+															<h6 class="menu__price">10$</h6>
+														 	<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+														</div>
+													</div>
+												</div>
+												<div class="swiper-slide">
+													<div class="menu__item">
+														<img class="menu__item-img" src="img/menu2.jpg" alt="">
+														<div class="menu__item-text">
+															<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+															<h6 class="menu__price">10$</h6>
+															<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+														</div>
+													</div>
+												</div>
+												<div class="swiper-slide">
+													<div class="menu__item">
+														<img class="menu__item-img" src="img/menu2.jpg" alt="">
+														<div class="menu__item-text">
+															<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+															<h6 class="menu__price">10$</h6>
+															<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+														</div>
+													</div>
+												</div>
+					
+											</div>
+											<div class="swiper-pagination menu__pagination"></div>
+										</div>
+									</div>
+									<!-- end slider5 -->
+
+												<!-- slider6 -->
+						<div class="menu__slider-block" id="dessert">
+							<div class="swiper-container menu__slider">
+								<div class="swiper-wrapper">
+		
+									<div class="swiper-slide">
+										<div class="menu__item">
+											<img class="menu__item-img" src="img/menu6.jpg" alt="">
+											<div class="menu__item-text">
+												<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+												<h6 class="menu__price">10$</h6>
+												<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="menu__item">
+											<img class="menu__item-img" src="img/menu6.jpg" alt="">
+											<div class="menu__item-text">
+												<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+												<h6 class="menu__price">10$</h6>
+												<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="menu__item">
+											<img class="menu__item-img" src="img/menu6.jpg" alt="">
+											<div class="menu__item-text">
+												<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+												<h6 class="menu__price">10$</h6>
+												<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="menu__item">
+											<img class="menu__item-img" src="img/menu6.jpg" alt="">
+											<div class="menu__item-text">
+												<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+												<h6 class="menu__price">10$</h6>
+												<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="menu__item">
+											<img class="menu__item-img" src="img/menu6.jpg" alt="">
+											<div class="menu__item-text">
+												<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+												<h6 class="menu__price">10$</h6>
+												<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="menu__item">
+											<img class="menu__item-img" src="img/menu6.jpg" alt="">
+											<div class="menu__item-text">
+												<h6 class="menu__title">Lorem, ipsum dolor.</h6>
+												<h6 class="menu__price">10$</h6>
+												<p class="menu__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum.</p>
+											</div>
+										</div>
+									</div>
+		
+								</div>
+								<div class="swiper-pagination menu__pagination"></div>
+							</div>
+						</div>
+						<!-- end slider6 -->
+
+
+
+			</div>
+
+
+		</section>
+
+		<section class="events" id="events">
+			<h6>CREATE YOUR OWN PIZZA</h6>
+			<div class="container events__container">
+				<div class="left__event">
+					<img src="img/event1.png" alt="">
+					<div class="circle"></div>
+					<div class="event__title">Lorem, ipsum.</div>
+				</div>
+				<div class="right__event">
+					<img src="img/event2.png" alt="">
+					<div class="circle"></div>
+					<div class="event__title">Lorem, ipsum.</div>
+				</div>
+			</div>
+			<div class="container events__contacts"> If you have questions call
+				<a href="tel:+09103839164">+09103839164</a>/<a href="tel:+09103839164">+09103839164</a> 
+			</div>
+		</section>
+
+
+		<section class="contacts" id="contacts">
+			<h2>Contacts</h2>
+			<p class="intro contacts__intro">Lorem ipsum dolor sit amet.</p>
+			<form action="" class="container contacts__form">
+				<input type="text" placeholder="Name" required>
+				<input type="email" placeholder="Email" required>
+				<input type="text" placeholder="Phone" required>
+				<textarea placeholder="Message"></textarea>
+				<div class="contacts__data-submit">
+					<div class="contacts__data">
+
+						<div class="contacts__data-item">
+							<svg>
+								<use xlink:href="img/sprite-icons.svg#map"></use>
+							</svg>
+							<span>Adress</span>
+						</div>
+
+						<div class="contacts__data-item">
+							<svg>
+								<use xlink:href="img/sprite-icons.svg#phone"></use>
+							</svg>
+							<a href="tel:+09103839164">+09103839164</a>
+						</div>
+
+						<div class="contacts__data-item">
+							<svg>
+								<use xlink:href="img/sprite-icons.svg#email"></use>
+							</svg>
+							<a href="email.com">email.com</a>
+						</div>
+
+					</div>
+					<button type="submit">SEND</button>
+				</div>
+			</form>
+		</section>
+		<section class="contacts" id="contacts">
+			
+		<h2>MAP</h2>
+		<p class="intro contacts__intro">Lorem ipsum dolor sit amet.</p>
+		<div class="map">
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5343.204014829898!2d37.562331023282646!3d55.731736370672365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54bc400d29e43%3A0xf35bc809abd580c2!2sThe%20Gaia!5e0!3m2!1sru!2sru!4v1690982446782!5m2!1sru!2sru"
+				width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</div>
+		</section>
+	</div>
+	<!--end wrapper-->
+
+	<script src="js/swiper.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+
+</html>
