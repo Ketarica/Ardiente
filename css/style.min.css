@@ -20,7 +20,7 @@ a {
 
 body {
   text-shadow: 1px 1px 1px #000;
-  background:center/60% url("./img/bg_pizza.jpg");
+  background:center/60% url("img/bg_pizza.jpg");
 
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
