@@ -4,7 +4,11 @@ const swiper = new Swiper('.spec__slider', {
 	pagination: {
 		el: '.swiper-pagination',
 		clickable: true,
-	}
+	},
+	autoplay: {
+		delay: 5000,
+		disableOnInteraction: false,
+	  },
 });
 
 
@@ -15,7 +19,11 @@ const swiperMenu = new Swiper('.menu__slider', {
 	pagination: {
 		el: '.swiper-pagination',
 		clickable: true,
-	}
+	},
+	autoplay: {
+		delay: 4000,
+		disableOnInteraction: false,
+	  },
 });
 
 
