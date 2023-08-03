@@ -19,9 +19,11 @@ a {
 }
 
 body {
-  background: #fff;
+  text-shadow: 1px 1px 1px #000;
+  background:center/60% url("/img/bg_pizza.jpg");
+
   font-family: "Open Sans", sans-serif;
-  color: #000;
+  color: #ffffff;
   font-size: 18px;
 }
 
@@ -69,6 +71,7 @@ section p {
 }
 
 .home {
+ 
   min-height: 800px;
   position: relative;
 }
@@ -1132,14 +1135,20 @@ footer a {
 }
 
 
-
+body {
+  text-shadow: 1px 1px 1px #000;
+  background:center/200% url("/img/bg_pizza.jpg");
+}
 
 
 
 
 
 @media (max-width: 575px) {
-
+  body {
+    text-shadow: 1px 1px 1px #000;
+    background:center/200% url("/img/bg_pizza.jpg");
+  }
   .team h6 {
     font-size: 12px;
     padding-bottom: 10px;
